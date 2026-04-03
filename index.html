@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>Invoice Table</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+      
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        
+        .progress {
+            background-color: green;
+            color: white;
+            padding: 5px;
+        }
+
+        .open {
+            background-color: orange;
+            color: white;
+            padding: 5px;
+        }
+
+        .hold {
+            background-color: red;
+            color: white;
+            padding: 5px;
+        }
+      
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+    </style>
+</head>
+
+<body>
+
+<h2>Invoice Table</h2>
+
+<table>
+    <tr>
+        <th>INVOICE ID</th>
+        <th>CUSTOMER</th>
+        <th>SHIP</th>
+        <th>PRICE</th>
+        <th>PURCHASED PRICE</th>
+        <th>STATUS</th>
+    </tr>
+
+    <tr>
+        <td>1001</td>
+        <td>ALI</td>
+        <td>AMERICA</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="progress">Progress</span></td>
+    </tr>
+
+    <tr>
+        <td>1001</td>
+        <td>UMER</td>
+        <td>CANADA</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="open">Open</span></td>
+    </tr>
+
+    <tr>
+        <td>1001</td>
+        <td>ABDULLAH</td>
+        <td>AUSTRALIA</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="hold">On hold</span></td>
+    </tr>
+     <tr>
+        <td>1001</td>
+        <td>SUBHAN</td>
+        <td>NETHERLAND</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="progress">progress</span></td>
+    </tr>
+     <tr>
+        <td>1001</td>
+        <td>AHMED</td>
+        <td>UK</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="On hold">On hold</span></td>
+    </tr>
+     <tr>
+        <td>1001</td>
+        <td>BILAL</td>
+        <td>NEWZELAND</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="open">Open</span></td>
+    </tr>
+     <tr>
+        <td>1001</td>
+        <td>ZYAN</td>
+        <td>SOUTH AFRICA</td>
+        <td>$3000</td>
+        <td>$1200</td>
+        <td><span class="open">Open</span></td>
+    </tr>
+     <tr>
+        <td>1001</td>
+        <td>MESSUM</td>
+        <td>UAE</td>
+        <td>$3000</td>
+        <td>$1200</td>
+       <td><span class="progress">progress</span></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
